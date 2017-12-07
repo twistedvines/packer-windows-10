@@ -1,7 +1,7 @@
 {
   "variables": {
     "communicator": "winrm",
-    "winrm_username": "Administrator",
+    "winrm_username": "vagrant",
     "winrm_password": "vagrant",
     "winrm_timeout": "6h",
     "vm_name": "packer-windows10_x64",
@@ -24,7 +24,7 @@
       ],
       "hard_drive_interface": "sata",
       "iso_interface": "sata",
-      "disk_size": 61444,
+      "disk_size": 30000,
       "headless": false,
       "vboxmanage": [
         ["modifyvm", "{{ .Name }}", "--cpus", "2"],
