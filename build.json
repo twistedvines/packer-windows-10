@@ -53,6 +53,13 @@
     {
       "type": "powershell",
       "script": "./scripts/install_guest_additions.ps1"
+    },
+    {
+      "type": "windows-restart"
+    },
+    {
+      "type": "powershell",
+      "script": "./scripts/configure_windows.ps1"
     }
   ],
   "post-processors": [
