@@ -55,8 +55,7 @@
     {
       "type": "compress",
       "compression_level": 4,
-      "output": "./build/windows-10.tar.gz",
-      "keep_input_artifact": true
+      "output": "./build/windows-10.tar.gz"
     }
   ]
 }
